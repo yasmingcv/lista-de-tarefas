@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: #3C197D;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 70vw;
+    height: 90vh;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    filter: drop-shadow(0px 0px 100px #000);
+}
+.container_mensagem{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+    gap: 20px;
+    background-color: #0A0028;
+    border-radius: 0px 20px 20px 0px;
+    color: #FFFFFF;
+}
+.container_mensagem h3{
+    font-size: 4rem;
+    width: 30vw;
+    font-weight: 600;
+}
+.container_mensagem p{
+    font-weight: 400;
+}
+.container_cadastro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container_cadastro h3{
+    font-size: 2rem;
+    color: #3C197D;
+    font-weight: 800;
+}
+.faca_login{
+    display: flex;
+    flex-direction: row;
+}
+.input_cadastro{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.input_cadastro input{
+    padding: 10px;
+    width: 30vw;
+    height: 4.5vh;
+    border-radius: 6px;
+    border: .5px solid #8E8E8E;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1s;
+}
+.input_cadastro input:focus{
+    border: 1px solid #3C197D;
+}
+.input_cadastro span p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 10px 0px;
+}
